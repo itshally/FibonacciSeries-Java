@@ -13,5 +13,5 @@ Source: [Wikipedia](https://en.wikipedia.org/wiki/Fibonacci_number)
 
 | File Name | Links |
 |---|---|
-| Fibonacci Series WITH Recursion | [Click Here](https://github.com/itshally/FibonacciSeries-Java/blob/master/src/FibonacciSeriesWithRecursion.java) |
-| Fibonacci Series WITHOUT Recursion| [Click Here](https://github.com/itshally/FibonacciSeries-Java/blob/master/src/FibonacciSeriesWithoutRecursion.java) |
+| FibonacciSeriesWithRecursion.java | [Click Here](https://github.com/itshally/FibonacciSeries-Java/blob/master/src/FibonacciSeriesWithRecursion.java) |
+| FibonacciSeriesWithoutRecursion.java | [Click Here](https://github.com/itshally/FibonacciSeries-Java/blob/master/src/FibonacciSeriesWithoutRecursion.java) |
