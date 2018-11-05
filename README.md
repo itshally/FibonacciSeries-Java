@@ -9,8 +9,7 @@ By definition, the first two numbers in the Fibonacci sequence are either 1 and 
 
 Source: [Wikipedia](https://en.wikipedia.org/wiki/Fibonacci_number)
 
-### Here are my 2 solutions:
-
+## Here are my 2 solutions:
 
 | File Name | Links |
 |---|---|
