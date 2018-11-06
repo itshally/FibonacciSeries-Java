@@ -23,7 +23,7 @@ public class FibonacciSeriesWithRecursion {
 		System.out.print(start + " " + current + " ");
 		
 		//loop to print the number series; it starts with 2 since 0 and 1 are already printed
-		for(int x = 2; x <= count; x++) {
+		for(int x = 2; x < count; x++) {
 			next = start + current;
 			System.out.print(next + " ");
 			start = current;
@@ -36,13 +36,17 @@ public class FibonacciSeriesWithRecursion {
 		
 		System.out.print("Enter how many sequence: \n");
 		
-		//getting the number of counts
-		Scanner input = new Scanner(System.in);
-		int count = input.nextInt();
-		
-		//printing the series
-		System.out.println("\nFibonacci Series: ");
-		printFibonacciSeries(count);
+		try {
+			//getting the number of counts
+			Scanner input = new Scanner(System.in);
+			int count = input.nextInt();
+			
+			//printing the series
+			System.out.println("\nFibonacci Series: ");
+			printFibonacciSeries(count);
+		}catch(Exception ex) {
+			System.out.println("\nPlease enter a valid integer number.");
+		}
 		
 	}
 
